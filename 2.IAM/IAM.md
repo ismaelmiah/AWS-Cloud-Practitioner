@@ -76,3 +76,18 @@
 - Secret Access Key ~= passwoed
 > Don't share them.
 
+## AWS CLI
+- A tool that enables you to interact with AWS services using commands in your command-line shell.
+- Direct access to the public APIs of AWS services
+- You can develop scripts to manage your resources
+- Alternative to using AWS Management Console
+- [Open Source](https://github.com/aws/aws-cli)
+
+## AWS SDK (Software Development KIT)
+- Language-specific APIs (set of libraries)
+- Enables you to access and manage AWS services programmatically
+- Embedded within your application
+- Supports:
+    - SDKs (JavaScript, Python, .NET, Ruby, Java, Go, Node.js, C++)
+    - Mobile SDKs (Andriod, iOS, ....)
+    - IoT Device SDKs (Embedded C, Aurdino, ...)
