@@ -27,3 +27,34 @@
     - Condition: conditions for when this policy is in effect (optional)
 
 ![Sample Policy](/2.IAM/iam-policies-structure.png)
+
+## IAM - Password Policy
+- You can setup a password policy:
+    - Set a minimum password length
+    - Require specific character types:
+        -  including uppercase letters
+        - lowercase letters
+        - numbers
+        - non-alphanumeric characters
+    - Allow all IAM users to change their own passwords
+    - Require users to change their password after some time (password expiration)
+    - Prevent password re-use
+
+## Multi Factor Authentication - MFA
+- Users have access to your account and can possibly change configurations or delete resources in your AWS acccount.
+- You want to protect your Root Accounts and IAM users
+- MFA = your password + security device you own (could be your phone)
+- > **Ismael**: password + MFA => Successful login
+- Main benefit of MFA: if a password is stolen or hacked, the account is not compromised.
+
+**Examples of Virtual MFA device**: Support for multiple tokens on a single-device.
+- Google Authenticator
+- Microsoft Authenticator
+- Authy
+
+**Universal 2nd Factor(U2F) Security Key**: Support for multiple root and IAM users using a single security key
+- **YubiKey** by Yubico (3rd party)
+
+**MFA devices options in AWS**
+- Hardware Key Fob MFA Device by Gemalto (3rd party)
+- Hardware Key Fob MFA Device for AWS GovCloud(US) by SurePassID (3rd party)
