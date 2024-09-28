@@ -13,6 +13,12 @@
 - In AWS you appply the **least privilege principle**, don't give more permissions than a user needs.
 > ![IAM Policies inheritance](/2.IAM/iam-permission.png)
 
+### Explaination- Policies Inheritance
+- Alice, Bob, Charles are in **Developers** group
+- Charles, David are in **Audit Team** group
+- David, Edward are in **Operations** group
+- Fred is not in a group
+
 ## IAM Policies Structure
 - Consists of
     - **Version**: policy language version, always include "2012-10-17".
@@ -58,3 +64,15 @@
 **MFA devices options in AWS**
 - Hardware Key Fob MFA Device by Gemalto (3rd party)
 - Hardware Key Fob MFA Device for AWS GovCloud(US) by SurePassID (3rd party)
+
+## How can users access AWS?
+- To access AWS, you have three options:
+    - **AWS Management Console** (protected by password + MFA)
+    - **AWS Command Line Interface (CLI)**: protected by access keys
+    - **AWS Software Developer Kit (SDK)** - for code: protected by access keys
+- Access Keys are generated through the AWS Console
+- Users manage their own access keys
+- Access Key Id ~= username
+- Secret Access Key ~= passwoed
+> Don't share them.
+
