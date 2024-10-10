@@ -91,3 +91,9 @@
 - **Software as a Service**
     - Many AWS services (ex: Rekognition for Machine Learning)
     - Google Apps (Gmail), Dropbox, Zoom
+
+## Basic pricing of the Cloud
+> AWS has 3 pricing fundamentals, following the pay-as-you-go model
+- **Compute**: Pay for the compute time
+- **Storage**: Pay for data stored in the cloud
+- **Data transfer OUT of the cloud**: Data transfer IN is free
