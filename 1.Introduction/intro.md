@@ -98,8 +98,8 @@
 - **Storage**: Pay for data stored in the cloud
 - **Data transfer OUT of the cloud**: Data transfer IN is free
 
-## [Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model)
-
+## Shared Responsibility Model
+[AWS Link](https://aws.amazon.com/compliance/shared-responsibility-model)
 > CUSTOMER = RESPONSIBILITY FOR THE SECURITY **IN** THE CLOUD
 - CUSTOMER DATA
 - PLATFORM
@@ -121,7 +121,8 @@
 - AVAILABILITY ZONES
 - EDGE LOCATIONS
 
-## [AWS Acceptable Use Policy](https://aws.amazon.com/aup/)
+## AWS Acceptable Use Policy
+[AWS Link](https://aws.amazon.com/aup/)
 - No Illegal, Harmful, or Offensive Use or Content
 - No Security Violations
 - No Network Abuse
