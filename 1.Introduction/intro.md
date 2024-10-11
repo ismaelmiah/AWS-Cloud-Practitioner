@@ -1,5 +1,5 @@
 ## What is Cloud Computing?
-- >Cloud computing is the **on-demand delivery** of compute power; database storage, applications, and other IT resources.
+> Cloud computing is the **on-demand delivery** of compute power; database storage, applications, and other IT resources.
 - Through a cloud services platform with **pay-as-you-go** pricing.
 - You can provision **exactly the right type and size of computing** resources you need.
 - You can access as many resources as you need, **almost instantly**.
@@ -97,3 +97,32 @@
 - **Compute**: Pay for the compute time
 - **Storage**: Pay for data stored in the cloud
 - **Data transfer OUT of the cloud**: Data transfer IN is free
+
+## [Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model)
+
+> CUSTOMER = RESPONSIBILITY FOR THE SECURITY **IN** THE CLOUD
+- CUSTOMER DATA
+- PLATFORM
+- APPLICATIONS
+- IDENTITY & ACCESS MANAGEMENT
+- OPERATING SYSTEM, NETWORK & FIREWALL CONFIGURATION
+- CLIENT-SIDE DATA ENCRYPTION & DATA INTEGRITY AUTHENTICATION
+- SERVER-SIDE ENCRYPTION (FILE-SYSTEM AND/OR DATA)
+- NETWORKING TRAFFIC PROTECTION (ENCRYPTION, INTEGRITY, IDENTITY)
+
+> AWS = RESPONSIBILITY FOR THE SECURITY **OF** THE CLOUD
+- SOFTWARE
+- COMPUTE
+- STORAGE
+- DATABASE
+- NETWORKING
+- HARDWARE/AWS GLOBAL INFRASTRUCTURE
+- REGIONS
+- AVAILABILITY ZONES
+- EDGE LOCATIONS
+
+## [AWS Acceptable Use Policy](https://aws.amazon.com/aup/)
+- No Illegal, Harmful, or Offensive Use or Content
+- No Security Violations
+- No Network Abuse
+- No E-Mail or Other Message Abuse
