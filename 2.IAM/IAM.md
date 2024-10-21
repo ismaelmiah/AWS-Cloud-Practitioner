@@ -136,3 +136,14 @@
 - Use Access Keys for Programmatic Access (CLI/SDK)
 - Audit permissions of your account using IAM Credentials Report & IAM Access Advisor
 - **Never Share IAM users & Access Keys**.
+
+## Shared Responsibility Model for IAM
+
+
+|AWS|User (You)|
+|-------|------|
+|Infrastructure (global network security)|Users, Groups, Roles, Policies management and monitoring
+|Configuration and vulnerability analysis|Enable MFA on all accounts
+|Compliance validation|Rotate all your keys often
+||Use IAM tools to apply appropriate permissions
+||Analyze access patterns & review permissions
